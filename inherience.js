@@ -16,7 +16,7 @@ function Bbb() {		//子类
 	Aaa.call(this);		//继承父类构造函数里的属性
 }
 
-Bbb.prototype = new Aaa();	//一句实现继承
+Bbb.prototype = new Aaa();	//实现继承Core
 
 //这里继承把属性也继承了，所以这种继承只适合单例模式
 //为了解决这个问题，需要一个中间项
