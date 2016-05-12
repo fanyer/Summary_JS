@@ -12,7 +12,7 @@ $.fn.serializeObject = function() {
 			o[this.name].push(this.value || ''); //将值插入o[label]
 
 		} else { 
-			o[this.name] = this.value || ''; //第一次在o中插入o[label]
+			o[this.name] = this.value || '';  //第一次在o中插入o[label]
 		} 
 	}); 
 	
